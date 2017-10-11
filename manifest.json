@@ -1,0 +1,13 @@
+{
+  "name": "sb_ColorUniversalDesign",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Change colors of page as CUD.",
+  "content_scripts": [
+    {
+    	"matches": ["<all_urls>"],
+     	"js": ["jquery-2.1.4.min.js", "rgbcolor.js", "cud.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}
